@@ -45,7 +45,7 @@ function App(props) {
             justifyContent: "center",
             alignItems: "center",
 
-        }}> 
+        }}> hello
         {toggle === true ? (
         <Scientific onToggleClick={onToggleClick} calculate={calculate} display={display} />
         ) : (
